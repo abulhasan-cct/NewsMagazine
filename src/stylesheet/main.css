@@ -1,0 +1,36 @@
+#fixed-size-image {
+  width: 300px; /* Set your desired width */
+  height: 170px; /* Set your desired height */
+  /* Additional styles if needed */
+}
+
+#cat-fix {
+  width: 130px;
+}
+
+@media screen and (min-width: 375px) {
+  #fixed-size-image {
+    width: 420px; /* Set your desired width */
+    height: 170px; /* Set your desired height */
+    /* Additional styles if needed */
+  }
+}
+@media screen and (min-width: 414px) {
+  #fixed-size-image {
+    width: 410px; /* Set your desired width */
+    height: 170px; /* Set your desired height */
+    /* Additional styles if needed */
+  }
+}
+@media screen and (max-width: 820px) {
+  #fixed-size-image {
+    height: 320px;
+    width: 681px;
+  }
+}
+@media screen and (max-width: 912px) {
+  #fixed-size-image {
+    height: 320px;
+    width: 681px;
+  }
+}

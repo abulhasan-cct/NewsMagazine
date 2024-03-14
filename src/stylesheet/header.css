@@ -1,0 +1,496 @@
+/* Header Styles */
+header {
+  background: #ecf0f1;
+}
+
+.header-top {
+  background: #04091e;
+  padding: 15px 0px;
+}
+
+.header-top .header-top-left ul li,
+.header-top .header-top-right ul li {
+  display: inline-block;
+}
+
+.header-top .header-top-left {
+  text-align: left;
+}
+
+.header-top .header-top-left li {
+  padding-right: 12px;
+}
+
+.header-top .header-top-left li a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header-top .header-top-left li a:hover {
+  color: #f6214b;
+}
+
+.header-top .header-top-right {
+  text-align: right;
+}
+
+.header-top .header-top-right li {
+  margin-left: 20px;
+}
+
+.header-top .header-top-right li a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header-top .header-top-right li a:hover {
+  color: #f6214b;
+}
+
+.header-top .header-top-right li a .lnr {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header-top .header-top-right li a .lnr {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-top .header-top-right li a span {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .header-top {
+    padding: 15px;
+  }
+}
+
+/* Logo Styles */
+.logo-wrap {
+  padding: 10px 0px;
+  background: #fff;
+}
+
+.logo-wrap .ads-banner {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .logo-wrap .ads-banner {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-wrap {
+    padding: 15px;
+  }
+}
+
+/* Main Menu Styles */
+.main-menu {
+  background: #04091e;
+  padding: 15px 20px;
+  position: relative;
+}
+
+@media (max-width: 575px) {
+  .main-menu {
+    margin: 0px 15px;
+    width: auto !important;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Navigation Menu Styles */
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-menu ul li:last-child {
+  border-bottom: none;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Nav Menu Container */
+#nav-menu-container {
+  margin: 0;
+}
+
+/* Nav Menu Styling */
+.nav-menu a {
+  padding: 0 8px 0px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.nav-menu > li {
+  margin-left: 20px;
+}
+
+.nav-menu ul {
+  margin: 20px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.nav-menu ul li:hover > a {
+  color: #f6214b;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+#nav-menu-container.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1b1919; /* Change this to the background color you want for the sticky navigation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box-shadow for a more subtle effect */
+  z-index: 9999; /* Optional: Set a high z-index to ensure the sticky navigation appears above other elements */
+}
+
+/* Mobile Nav Toggle */
+.menu-title {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+#mobile-nav-toggle {
+  left: 0;
+  z-index: 999;
+  border: 0;
+  background: none;
+  font-size: 18px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+  color: #fff;
+  font-weight: 900;
+}
+
+@media (max-width: 991px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.8);
+  /* left: -260px; */
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.8s;
+}
+
+#mobile-nav.active {
+  left: 0;
+}
+
+#mobile-nav ul .slide-toggle {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+#mobile-nav ul .menu-item-active .slide-toggle {
+  max-height: 1000px; /* Adjust this value to the expected maximum height of the sub-menu */
+}
+
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#mobile-nav ul li {
+  position: relative;
+}
+#mobile-main {
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 500;
+}
+
+#mobile-nav ul li a:hover {
+  color: #fff;
+}
+
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#mobile-nav ul .menu-has-children li a {
+  text-transform: none;
+}
+
+#mobile-nav ul .menu-item-active {
+  color: #d1cfd0;
+}
+
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  /* display: none; */
+}
+
+/* Mobile Nav body classes */
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff;
+}
+
+/* Properly display menu items in a block */
+@media (max-width: 991px) {
+  #mobile-nav ul li {
+    display: block;
+    margin-bottom: 15px; /* Adjust spacing between menu items */
+  }
+
+  #mobile-nav ul ul {
+    margin-top: 10px; /* Adjust spacing between sub-menu items */
+  }
+}
+
+/* Search Styles */
+.Search {
+  width: 400px;
+  position: relative;
+}
+
+.Search .lnr {
+  font-weight: 700;
+  vertical-align: bottom;
+  display: inline-block;
+  color: #fff;
+}
+
+.Search .form-control {
+  border-radius: 0px;
+  border: none;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.Search .form-control:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .Search {
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+  }
+}
+
+.Search-box {
+  float: left;
+  width: 80%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  padding-left: 0.75rem;
+  font-style: italic;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform ease 500ms;
+}
+
+@media (max-width: 554px) {
+  .Search-box {
+    width: 50%;
+    float: right;
+    margin-right: 80px;
+  }
+}
+
+.Search-box:focus {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.Search-box:focus + .Search-box-label {
+  z-index: -1;
+  opacity: 0;
+}
+
+.Search-box:focus ~ .Search-close {
+  z-index: 3;
+  opacity: 1;
+}
+
+.Search-box-label,
+.Search-close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  height: 100%;
+  width: 3rem;
+  transition: opacity ease 250ms 250ms;
+}
+
+.Search-close {
+  opacity: 0;
+  z-index: 0;
+}
+
+.Search {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ... Other CSS Styles ... */
+#logo-main {
+  width: 204px;
+  height: 60px;
+}

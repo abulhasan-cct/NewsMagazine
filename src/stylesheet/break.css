@@ -1,0 +1,94 @@
+.desk {
+  text-align: center;
+
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.contentbr {
+  font-weight: 1000;
+  margin-top: 5px;
+  color: aliceblue;
+}
+.bg-color {
+  background-color: rgb(13, 23, 65);
+  padding: 5px 5px 5px 5px;
+  margin: 2px;
+}
+
+/* .main {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: #e8eddf;
+  color: #242423;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.divbody {
+  min-height: 100%;
+  margin: 0;
+  padding-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 512px;
+  padding-block: 48px;
+  border-radius: 8px;
+  background-color: #242423;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  position: relative;
+  background-color: #f5cb5c;
+  padding-block: 8px;
+  overflow: hidden;
+}
+
+.marquee:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.marquee__inner {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.marquee__part {
+  flex-shrink: 0;
+  padding-inline: 2px;
+
+  animation-name: marquee;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+} */
